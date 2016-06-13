@@ -1,0 +1,9 @@
+# AndroidPratice
+Assignment 8
+
+這次的作業是實做關於手機的程式和socket。在這次的作業中，我是使用之前實驗練習的計算機程式來進行改寫。我新加入的是server和client端的連線。在
+server端的部分，我是使用ServerSocket和Socket來進行連線，client也是使用一個socket來和server進行溝通。溝通實做的部分我則是使用BufferedReader
+和PrintWriter來進行2邊資料的傳輸，當資料傳入server端後便會在JFrame螢幕上顯示答案。而至於我額外加的功能是把server端的JFrame加入背景以增加美
+  觀。
+
+我這次作業遇到的困難是一開始我忘記在manifests中加入permission的指令，後來加上去之後程式就能正常的傳輸資料了。
